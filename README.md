@@ -10,12 +10,19 @@ What I learned:
     For example: Creating a function on js, to alter the grid elements to user input.
     
     updateGrid = () => {
+    
     grid.innerHTML = "";
+    
     grid.style.setProperty(
+    
     "grid-template-columns", `repeat(${userInput.value}, 2fr)`
+    
     );
+    
     grid.style.setProperty(
+    
     "grid-template-rows", `repeat(${userInput.value}, 2fr)`
+    
     );
 
 3. More practice with Javascript for example creating for loops to:
